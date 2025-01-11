@@ -38,7 +38,7 @@ public class Vector3D {
     }
 
     public Vector3D add(Vector3D vector) {
-        return new Vector3D(vectorX + vector.vectorX, vectorY + vector.vectorY, vectorZ + vector.vectorZ)
+        return new Vector3D(vectorX + vector.vectorX, vectorY + vector.vectorY, vectorZ + vector.vectorZ);
     }
 
     public Vector3D multiply(double constant) {
